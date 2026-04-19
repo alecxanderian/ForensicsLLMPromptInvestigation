@@ -47,9 +47,9 @@ pip install -r requirements.txt
 
 sudo apt install ollama
 ollama run phi3
-
-
+run:
 python3 victim_vuln_app.py
 
+then run attack.py to gather chatlog events
 
 python3 master_investigation_report.py
